@@ -1,0 +1,12 @@
+.themeSwitcher {
+    padding: 5px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: solid 1.5px var(--primary-color);
+    background-color: var(--inverted-primary-color);
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--inverted-primary-color);
+
+    transition: all 1s;
+}

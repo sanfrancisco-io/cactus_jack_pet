@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background: var(--inverted-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    a {
+        color: var(--inverted-primary-color);
+        text-decoration: none;
+    }
+
+    transition: all 1s;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.mainLink {
+    margin-right: 15px;
+}

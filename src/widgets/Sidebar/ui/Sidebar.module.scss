@@ -1,0 +1,32 @@
+.sidebar {
+    height: 100%;
+    width: var(--sidebar-width);
+    background: var(--inverted-bg-color);
+    border-top: 2px solid #fdf4f5;
+    padding: 20px;
+    position: relative;
+    transition: all 1s;
+}
+
+.collapsed {
+    width: var(--sidebar-width-collapsed);
+    transition: width 1s;
+}
+
+.toggle {
+    background-color: orange;
+}
+
+.switchers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (min-width: var(--sidebar-width-collapsed)) {
+    .sidebar {
+        padding: 5px;
+    }
+}

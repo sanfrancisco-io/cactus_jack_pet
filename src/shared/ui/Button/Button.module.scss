@@ -1,0 +1,24 @@
+.button {
+    cursor: pointer;
+}
+
+.clear {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.toggle {
+    padding: 5px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: solid 1.5px black;
+    background-color: #f1f6f9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #9384d1;
+
+    transition: all 1s;
+}
